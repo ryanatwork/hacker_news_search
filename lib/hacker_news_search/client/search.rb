@@ -10,9 +10,10 @@ module HackerNewsSearch
       # @see http://www.hnsearch.com/api
       # @see http://www.thriftdb.com/documentation/rest-api/search-api
       # @example
-      #   HackerNewsSearch.search("users" {:q => "sferik"})
-      def search(collection, options={})
-        get("#{collection}/_search", options)
+      #   HackerNewsSearch.search("users" "sferik")
+      #   HackerNewsSearch.search("users", "sferik" {:limit => "30"})
+      def search(collection, query, options={})
+        get("#{collection}/_search?q=#{query}", options)
       end
       
       # Returns the top 30 hot stories based on the Hacker News Search algorithm
