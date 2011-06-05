@@ -7,14 +7,9 @@ describe HackerNewsSearch::Client::Items do
   end
 
   describe ".items" do
-
-    it "should return items" do
-      stub_get("items").
-        to_return(:body => fixture("items.json"))
-      items = @client.items("")
-      items.first.author.login.should == "caboteria"
+    it "should return the correct items" do
+      pending("get the item")
     end
-
   end
 
 end
