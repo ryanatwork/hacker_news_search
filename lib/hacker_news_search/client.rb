@@ -7,8 +7,9 @@ require 'hacker_news_search/client/search'
 module HackerNewsSearch
   class Client
     include HackerNewsSearch::Client::Connection
-    
     include HackerNewsSearch::Client::Request
+    
+    include HackerNewsSearch::Client::Items
     include HackerNewsSearch::Client::Search
     include HackerNewsSearch::Client::Users
   end
