@@ -20,8 +20,8 @@ Usage Examples
 
     @client = HackerNewsSearch.new
     @client.users("ryanatwork") # Return the user
-    @client.username # => "ryanatwork"
-    @client.search("users", {q: => "jobs"}) # Return search results for jobs
+    @client.karma # => "455"
+    @client.search("items", "jobs"") # Return search results for news items containing the search term jobs
 
 Contributing
 ------------

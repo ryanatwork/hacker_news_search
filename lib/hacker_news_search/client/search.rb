@@ -12,6 +12,7 @@ module HackerNewsSearch
       # @example
       #   HackerNewsSearch.search("users" "sferik")
       #   HackerNewsSearch.search("users", "sferik" {:limit => "30"})
+      #   HackerNewsSearch.search("items" "jobs")
       def search(collection, query, options={})
         get("#{collection}/_search?q=#{query}", options)
       end
