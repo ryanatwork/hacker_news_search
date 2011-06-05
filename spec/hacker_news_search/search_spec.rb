@@ -14,7 +14,7 @@ describe HackerNewsSearch::Client::Search do
         end
 
         it "should fetch all items matching the search criteria" do
-          search = @client.search("items", {:q => "sferik"})
+          search = @client.search("items","sferik")
           a_get("items/_search?q=sferik").should have_been_made
           search.hits.should == 13
         end
