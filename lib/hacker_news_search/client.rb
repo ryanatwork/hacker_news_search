@@ -5,5 +5,5 @@ module HackerNewsSearch
   class Client
     include HackerNewsSearch::Connection
     include HackerNewsSearch::Request
-
-end
+  end
+end  
