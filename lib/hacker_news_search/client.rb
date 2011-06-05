@@ -9,6 +9,7 @@ module HackerNewsSearch
     include HackerNewsSearch::Client::Connection
     
     include HackerNewsSearch::Client::Request
+    include HackerNewsSearch::Client::Search
     include HackerNewsSearch::Client::Users
   end
 end  
