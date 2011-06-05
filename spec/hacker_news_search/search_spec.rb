@@ -19,5 +19,18 @@ describe HackerNewsSearch::Client::Search do
           search.hits.should == 13
         end
       end
+  end
+  
+  describe ".hotness" do
+    before do
+      stub_get("items/_search?limit=30&sortby=product(points,pow(2,div(div(ms(create_ts,NOW),3600000),72)))%20desc").
+        to_return(:status => 200, :body => fixture("hotness.json"))
     end
+    
+    it "should return the current hot stories on hacker news" do
+      hot = @client.hotness
+      a_get("items/_search?limit=30&sortby=product(points,pow(2,div(div(ms(create_ts,NOW),3600000),72)))%20desc").should_have_been_made
+      hot.hits == 2428061 
+    end
+  end  
 end
