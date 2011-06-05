@@ -14,6 +14,10 @@ module HackerNewsSearch
       def search(collection, options={})
         get("#{collection}/_search", options)
       end
+      
+      def hotness(options={})
+        get("items/_search?limit=30&sortby=product(points,pow(2,div(div(ms(create_ts,NOW),3600000),72)))%20desc", options)
+      end
     end
   end
 end
