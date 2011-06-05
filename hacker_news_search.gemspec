@@ -5,10 +5,10 @@ Gem::Specification.new do |gem|
   gem.name        = 'hacker_news_search'
   gem.version     =  HackerNewsSearch::VERSION
   gem.author      = "Ryan Resella"
-  gem.email       = 'ryanresella@gmail.com'
-  gem.homepage    = ''
-  gem.summary     = %q{TODO: Write a gem summary}
-  gem.description = %q{TODO: Write a gem description}
+  gem.email       = 'ryan@codeforamerica.org'
+  gem.homepage    = 'https://github.com/ryanatwork/hacker_news_search'
+  gem.summary     = %q{Wrapper for the Hacker News Search API}
+  gem.description = %q{Simple Ruby wrapper for the Hacker News Search API}
 
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
