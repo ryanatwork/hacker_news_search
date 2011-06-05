@@ -6,6 +6,14 @@ Installation
 ------------
     gem install hacker_news_search
 
+Documentation
+-------------
+[http://rdoc.info/gems/hacker_news_search](http://rdoc.info/gems/hacker_news_search)
+
+Continuous Integration
+----------------------
+[![Build Status](http://travis-ci.org/ryanatwork/hacker_news_search.png)](http://travis-ci.org/ryanatwork/hacker_news_search)
+
 Usage Examples
 --------------
     require 'hacker_news_search'
