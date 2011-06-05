@@ -15,6 +15,13 @@ module HackerNewsSearch
         get("#{collection}/_search", options)
       end
       
+      # Returns the top 30 hot stories based on the Hacker News Search algorithm
+      # 
+      # @param options [Hash] A customizable set of options. 
+      # @return {Hash}
+      # @see http://www.hnsearch.com/api
+      # @example
+      #   HackerNewsSearch.hotness
       def hotness(options={})
         get("items/_search?limit=30&sortby=product(points,pow(2,div(div(ms(create_ts,NOW),3600000),72)))%20desc", options)
       end
