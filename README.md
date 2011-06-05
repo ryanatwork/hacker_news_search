@@ -1,6 +1,6 @@
 # Hacker News Search
 
-Ruby wrapper for the Hacker News Search API - heavily inspired by the [https://github.com/codeforamerica/gem_template](Code for America Gem Template)
+Ruby wrapper for the Hacker News Search API 
 
 Installation
 ------------
@@ -57,4 +57,13 @@ Submitting a Pull Request
 
 Credits
 -------
-Hacker News and ThriftDB REST API
+[Hacker News Search API](http://www.hnsearch.com/api) and [ThriftDB REST API](http://www.thriftdb.com/documentation/rest-api/search-api)
+
+Inspiration
+-----------
+Hacker News Search was heavily inspired by the [https://github.com/codeforamerica/gem_template](Code for America Gem Template)
+
+Copyright
+---------
+Copyright (c) 2011 Ryan Resella
+See [LICENSE](https://github.com/ryanatwork/hacker_news_search/blob/master/LICENSE) for details.
