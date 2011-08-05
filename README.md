@@ -1,6 +1,6 @@
 # Hacker News Search
 
-Ruby wrapper for the Hacker News Search API 
+Ruby wrapper for the Hacker News Search API
 
 Installation
 ------------
@@ -12,7 +12,7 @@ Documentation
 
 Continuous Integration
 ----------------------
-[![Build Status](http://travis-ci.org/ryanatwork/hacker_news_search.png)](http://travis-ci.org/ryanatwork/hacker_news_search)
+[![Build Status](https://travis-ci.org/ryanatwork/hacker_news_search.png)](http://travis-ci.org/ryanatwork/hacker_news_search)
 
 Usage Examples
 --------------
