@@ -12,7 +12,7 @@ Documentation
 
 Continuous Integration
 ----------------------
-[![Build Status](https://travis-ci.org/ryanatwork/hacker_news_search.png)](http://travis-ci.org/ryanatwork/hacker_news_search)
+[![Build Status]((https://secure.travis-ci.org/ryanatwork/hacker_news_search.png))](http://travis-ci.org/ryanatwork/hacker_news_search)
 
 Usage Examples
 --------------
