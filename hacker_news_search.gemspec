@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'maruku', '~> 0.6'
   gem.add_development_dependency 'rake', '~> 0.9'
   gem.add_development_dependency 'rspec', '~> 2.6'
-  gem.add_development_dependency 'simplecov', '~> 0.4'
+  gem.add_development_dependency 'simplecov', '~> 0.5.3'
   gem.add_development_dependency 'webmock', '~> 1.7.6'
   gem.add_development_dependency 'yard', '~> 0.7'
   gem.add_runtime_dependency 'faraday', '~> 0.7.4'
