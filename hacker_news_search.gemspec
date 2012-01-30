@@ -15,12 +15,12 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{|f| File.basename(f)}
   gem.require_paths = ['lib']
 
-  gem.add_development_dependency 'maruku', '~> 0.6'
-  gem.add_development_dependency 'rake', '~> 0.9'
-  gem.add_development_dependency 'rspec', '~> 2.6'
-  gem.add_development_dependency 'simplecov', '~> 0.5.3'
-  gem.add_development_dependency 'webmock', '~> 1.7.6'
-  gem.add_development_dependency 'yard', '~> 0.7'
+  gem.add_development_dependency 'maruku'
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'simplecov'
+  gem.add_development_dependency 'webmock'
+  gem.add_development_dependency 'yard'
   gem.add_runtime_dependency 'faraday', '~> 0.7.4'
   gem.add_runtime_dependency 'faraday_middleware', '~> 0.7.0'
   gem.add_runtime_dependency 'hashie', '~> 1.1.0'
