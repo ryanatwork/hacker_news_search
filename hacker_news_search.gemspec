@@ -24,6 +24,6 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'faraday', '~> 0.8.4'
   gem.add_runtime_dependency 'faraday_middleware', '~> 0.8.4'
   gem.add_runtime_dependency 'hashie', '~> 1.2.0'
-  gem.add_runtime_dependency 'multi_json', '~> 1.3.4'
+  gem.add_runtime_dependency 'multi_json', '~> 1.7.7'
   gem.add_runtime_dependency 'rash', '~> 0.3.0'
 end
