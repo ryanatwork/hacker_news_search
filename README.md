@@ -74,4 +74,4 @@ Hacker News Search was heavily inspired by the [https://github.com/codeforameric
 Copyright
 ---------
 Copyright (c) 2011 Ryan Resella
-See [LICENSE](https://github.com/ryanatwork/hacker_news_search/blob/master/LICENSE) for details.
+See [LICENSE](https://github.com/ryanatwork/hacker_news_search/blob/master/LICENSE.md) for details.
