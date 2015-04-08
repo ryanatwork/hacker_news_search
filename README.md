@@ -1,5 +1,7 @@
 # Hacker News Search
 
+NOTE: This no longer works.  This was made the for the Thrift DB search.
+
 Ruby wrapper for the Hacker News Search API
 
 Installation
